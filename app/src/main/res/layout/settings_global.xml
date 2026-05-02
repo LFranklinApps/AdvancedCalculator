@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seek="com.graph89.controls.SeekBarPreference"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="Application settings" >
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="hide_statusbar"
+        android:summary="Hide the top system status bar"
+        android:title="Hide status bar" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="keep_screen_on"
+        android:summary="Always keep the screen on when the calculator is shown"
+        android:title="Keep screen on" />
+
+    <com.graph89.controls.SeekBarPreference
+        android:dependency="keep_screen_on"
+        android:defaultValue="5"
+        android:dialogTitle="Emulator timeout"
+        android:key="auto_off"
+        android:persistent="true"
+        android:summary="Turn off the emulator after an interval of inactivity"
+        android:title="Auto Off"
+        seek:maxValue="60"
+        seek:minValue="0" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="haptic_feedback"
+        android:summary="Enable key vibration. Note that touch interactions/touch feedback/haptic feedback must be enabled in Android system settings for Graph89 to generate haptic feedback."
+        android:title="Haptic Feedback" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="audio_feedback"
+        android:summary="Make a click sound on key press"
+        android:title="Acoustic Feedback" />
+
+    <PreferenceCategory
+        android:key="gesture_settings_category"
+        android:title="Gesture Settings" >
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:key="swipe_gesture_enabled"
+        android:title="Swipe for Alt Key Functions"
+        android:summary="Swipe up on buttons to trigger 2nd key combinations and swipe down on buttons to trigger alpha key combinations"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

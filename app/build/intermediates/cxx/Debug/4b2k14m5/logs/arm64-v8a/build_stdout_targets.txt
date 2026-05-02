@@ -1,0 +1,9 @@
+Android NDK: WARNING:C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/..//gmodule/Android.mk:gmodule-2.0: LOCAL_LDLIBS is always ignored for static libraries    
+make: Nothing to be done for 'glib-2.0'.
+make: Nothing to be done for 'ticables2-1.3.3'.
+make: Nothing to be done for 'ticalcs2-1.1.7'.
+make: Nothing to be done for 'ticonv-1.1.3'.
+make: Nothing to be done for 'tiemu-3.03'.
+make: Nothing to be done for 'tifiles2-1.1.5'.
+make: Nothing to be done for 'tilem-2.0'.
+make: Nothing to be done for 'wrapper'.

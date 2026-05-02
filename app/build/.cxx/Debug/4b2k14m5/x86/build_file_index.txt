@@ -1,0 +1,2 @@
+C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\jni\Android.mk
+C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\jni\Application.mk

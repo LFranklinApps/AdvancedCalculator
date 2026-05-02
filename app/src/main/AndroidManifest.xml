@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--uses-permission android:name="android.permission.VIBRATE" /-->
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Advanced Calculator"
+        android:theme="@style/Graph89Theme"
+        android:allowBackup="true">
+        <activity
+            android:name="com.graph89.emulationcore.EmulatorActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.graph89.emulationcore.RomManagerActivity"
+            android:label="ROM Manager" />
+        <activity
+            android:name="com.graph89.controls.FilePickerActivity"
+            android:label="Add ROM" />
+        <activity
+            android:name="com.graph89.emulationcore.InstanceConfigurationPage"
+            android:label="ROM Configuration" />
+        <activity
+            android:name="com.graph89.emulationcore.GlobalConfigurationPage"
+            android:label="Settings" />
+        <activity
+            android:name="com.graph89.emulationcore.BackupManager"
+            android:label="Backup Manager" />
+    </application>
+
+</manifest>

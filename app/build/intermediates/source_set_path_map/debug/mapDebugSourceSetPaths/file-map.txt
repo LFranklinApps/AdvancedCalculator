@@ -1,0 +1,7 @@
+com.eanema.graph89.app-pngs-0 C:\Users\laven\AndroidStudioProjects\graph89-master\app\build\generated\res\pngs\debug
+com.eanema.graph89.app-resValues-1 C:\Users\laven\AndroidStudioProjects\graph89-master\app\build\generated\res\resValues\debug
+com.eanema.graph89.app-mergeDebugResources-2 C:\Users\laven\AndroidStudioProjects\graph89-master\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.eanema.graph89.app-mergeDebugResources-3 C:\Users\laven\AndroidStudioProjects\graph89-master\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.eanema.graph89.app-debug-4 C:\Users\laven\AndroidStudioProjects\graph89-master\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.eanema.graph89.app-debug-5 C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\debug\res
+com.eanema.graph89.app-main-6 C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\res

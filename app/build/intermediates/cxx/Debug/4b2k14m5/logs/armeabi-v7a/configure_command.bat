@@ -1,0 +1,15 @@
+@echo off
+"C:\\Users\\laven\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\ndk-build.cmd" ^
+  "NDK_PROJECT_PATH=null" ^
+  "APP_BUILD_SCRIPT=C:\\Users\\laven\\AndroidStudioProjects\\graph89-master\\app\\src\\main\\jni\\Android.mk" ^
+  "NDK_APPLICATION_MK=C:\\Users\\laven\\AndroidStudioProjects\\graph89-master\\app\\src\\main\\jni\\Application.mk" ^
+  "APP_ABI=armeabi-v7a" ^
+  "NDK_ALL_ABIS=armeabi-v7a" ^
+  "NDK_DEBUG=1" ^
+  "APP_PLATFORM=android-19" ^
+  "NDK_OUT=C:\\Users\\laven\\AndroidStudioProjects\\graph89-master\\app\\build\\intermediates\\cxx\\Debug\\4b2k14m5/obj" ^
+  "NDK_LIBS_OUT=C:\\Users\\laven\\AndroidStudioProjects\\graph89-master\\app\\build\\intermediates\\cxx\\Debug\\4b2k14m5/lib" ^
+  "APP_SHORT_COMMANDS=false" ^
+  "LOCAL_SHORT_COMMANDS=false" ^
+  -B ^
+  -n

@@ -1,0 +1,666 @@
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:108:27: warning: incompatible pointer types passing 'GData **' (aka 'struct _GData **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+  G_DATALIST_SET_POINTER (datalist, NULL);
+                          ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:52:35: note: expanded from macro 'G_DATALIST_SET_POINTER'
+    _oldv = g_atomic_pointer_get (datalist);                                            \
+                                  ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:51:68: note: passing argument to parameter 'atomic' here
+gpointer g_atomic_pointer_get                  (volatile gpointer *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:224:29: warning: incompatible pointer types passing 'GData **' (aka 'struct _GData **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+                  G_DATALIST_SET_POINTER (datalist, list->next);
+                                          ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:52:35: note: expanded from macro 'G_DATALIST_SET_POINTER'
+    _oldv = g_atomic_pointer_get (datalist);                                            \
+                                  ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:51:68: note: passing argument to parameter 'atomic' here
+gpointer g_atomic_pointer_get                  (volatile gpointer *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:297:31: warning: incompatible pointer types passing 'GData **' (aka 'struct _GData **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+      G_DATALIST_SET_POINTER (datalist, list);
+                              ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:52:35: note: expanded from macro 'G_DATALIST_SET_POINTER'
+    _oldv = g_atomic_pointer_get (datalist);                                            \
+                                  ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:51:68: note: passing argument to parameter 'atomic' here
+gpointer g_atomic_pointer_get                  (volatile gpointer *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:539:40: warning: incompatible pointer types passing 'GData **' (aka 'struct _GData **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+      oldvalue = g_atomic_pointer_get (datalist);
+                                       ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:51:68: note: passing argument to parameter 'atomic' here
+gpointer g_atomic_pointer_get                  (volatile gpointer *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gdataset.c:568:40: warning: incompatible pointer types passing 'GData **' (aka 'struct _GData **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+      oldvalue = g_atomic_pointer_get (datalist);
+                                       ^~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:51:68: note: passing argument to parameter 'atomic' here
+gpointer g_atomic_pointer_get                  (volatile gpointer *atomic);
+                                                                   ^
+5 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/goption.c:1950:10: warning: returning 'const gchar *' (aka 'const char *') from a function with result type 'gchar *' (aka 'char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  return dgettext (domainname, msgid);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/glibintl.h:25:33: note: expanded from macro 'dgettext'
+#define dgettext(Domain,String) (String)
+                                ^~~~~~~~
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/grel.c:429:42: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  g_log (G_LOG_DOMAIN, G_LOG_LEVEL_INFO, gstring->str);
+                                         ^~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/grel.c:429:42: note: treat the string as an argument to avoid this
+  g_log (G_LOG_DOMAIN, G_LOG_LEVEL_INFO, gstring->str);
+                                         ^
+                                         "%s", 
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthread.c:218:27: warning: incompatible pointer types passing 'GMutex **' (aka 'struct _GMutex **') to parameter of type 'volatile gpointer *' (aka 'void *volatile *') [-Wincompatible-pointer-types]
+    g_atomic_pointer_set (mutex, g_mutex_new());
+                          ^~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:52:68: note: passing argument to parameter 'atomic' here
+void     g_atomic_pointer_set                  (volatile gpointer *atomic,
+                                                                   ^
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:98:43: warning: passing 'guint *' (aka 'unsigned int *') to parameter of type 'volatile gint *' (aka 'volatile int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+  local_max_idle_time = g_atomic_int_get (&max_idle_time);
+                                          ^~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:48:68: note: passing argument to parameter 'atomic' here
+gint     g_atomic_int_get                      (volatile gint     *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:145:44: warning: passing 'const gconstpointer' (aka 'const void *const') to parameter of type 'gpointer' (aka 'void *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                g_async_queue_push (unused_thread_queue, wakeup_thread_marker);
+                                                         ^~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:144:38: note: passing argument to parameter here
+extern __typeof (g_async_queue_push) IA__g_async_queue_push __attribute((visibility("hidden")));
+                                     ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:166:48: warning: passing 'guint *' (aka 'unsigned int *') to parameter of type 'volatile gint *' (aka 'volatile int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+              local_max_idle_time = g_atomic_int_get (&max_idle_time);
+                                                      ^~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:48:68: note: passing argument to parameter 'atomic' here
+gint     g_atomic_int_get                      (volatile gint     *atomic);
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:781:9: warning: passing 'const gconstpointer' (aka 'const void *const') to parameter of type 'gpointer' (aka 'void *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                           wakeup_thread_marker);
+                                           ^~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:147:47: note: passing argument to parameter here
+extern __typeof (g_async_queue_push_unlocked) IA__g_async_queue_push_unlocked __attribute((visibility("hidden")));
+                                              ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:905:21: warning: passing 'guint *' (aka 'unsigned int *') to parameter of type 'volatile gint *' (aka 'volatile int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+  g_atomic_int_set (&max_idle_time, interval);
+                    ^~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:49:68: note: passing argument to parameter 'atomic' here
+void     g_atomic_int_set                      (volatile gint     *atomic,
+                                                                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:916:12: warning: passing 'const gconstpointer' (aka 'const void *const') to parameter of type 'gpointer' (aka 'void *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                                       wakeup_thread_marker);
+                                       ^~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:147:47: note: passing argument to parameter here
+extern __typeof (g_async_queue_push_unlocked) IA__g_async_queue_push_unlocked __attribute((visibility("hidden")));
+                                              ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/gthreadpool.c:941:28: warning: passing 'guint *' (aka 'unsigned int *') to parameter of type 'volatile gint *' (aka 'volatile int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+  return g_atomic_int_get (&max_idle_time);
+                           ^~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/../glib/gatomic.h:48:68: note: passing argument to parameter 'atomic' here
+gint     g_atomic_int_get                      (volatile gint     *atomic);
+                                                                   ^
+7 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:208:26: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                         g_strerror (errno));
+                         ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:208:26: note: treat the string as an argument to avoid this
+                         g_strerror (errno));
+                         ^
+                         "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:248:26: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                         g_strerror (errno));
+                         ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:248:26: note: treat the string as an argument to avoid this
+                         g_strerror (errno));
+                         ^
+                         "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:290:6: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (EINVAL));
+                   ^~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:290:6: note: treat the string as an argument to avoid this
+                   g_strerror (EINVAL));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:300:6: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (errno));
+                   ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:300:6: note: treat the string as an argument to avoid this
+                   g_strerror (errno));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:318:6: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (errno));
+                   ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:318:6: note: treat the string as an argument to avoid this
+                   g_strerror (errno));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:381:6: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (errno));
+                   ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:381:6: note: treat the string as an argument to avoid this
+                   g_strerror (errno));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:497:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_R | MODE_PLUS:
+           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:500:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_W | MODE_PLUS:
+           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:503:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_A | MODE_PLUS:
+           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:517:20: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (errno));
+                   ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:517:20: note: treat the string as an argument to avoid this
+                   g_strerror (errno));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:526:20: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+                   g_strerror (errno));
+                   ^~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:526:20: note: treat the string as an argument to avoid this
+                   g_strerror (errno));
+                   ^
+                   "%s", 
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/galias.h:2642:20: note: expanded from macro 'g_strerror'
+#define g_strerror IA__g_strerror
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:546:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_R | MODE_PLUS:
+           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:547:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_W | MODE_PLUS:
+           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:548:12: warning: case value not in enumerated type 'enum (unnamed enum at C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/glib/glib/giounix.c:442:3)' [-Wswitch]
+      case MODE_A | MODE_PLUS:
+           ^
+14 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/calc_xx.c:48:28: warning: implicit conversion from enumeration type 'CalcError' to different enumeration type 'CalcFeatures' [-Wenum-conversion]
+        if(handle == NULL) return ERR_INVALID_HANDLE;
+                           ~~~~~~ ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/calc_89t.c:250:10: warning: address of array 've->folder' will always evaluate to 'true' [-Wpointer-bool-conversion]
+                if(ve->folder)
+                ~~ ~~~~^~~~~~
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:280:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+1:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:284:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+2:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:288:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+3:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:292:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+4:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:296:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+5:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:300:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+6:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:304:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+7:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:308:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+8:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:312:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+9:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:316:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+10:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:320:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+11:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:324:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+12:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:328:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+13:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:332:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+14:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:336:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+15:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:340:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR2+16:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:244:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+1:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:248:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+2:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:252:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+3:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:256:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+4:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:260:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+5:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:264:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+6:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:268:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR1+7:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:352:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+1:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:356:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+2:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:361:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+3:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:365:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+4:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:369:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+5:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:373:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+6:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:377:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+7:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:381:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+8:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:386:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+9:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:390:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+10:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:394:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+11:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:398:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+12:
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libticalcs2-1.1.7/src/error.c:402:7: warning: case value not in enumerated type 'CalcError' [-Wswitch]
+        case ERR_CALC_ERROR3+13:
+             ^
+36 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/miniunz.c:361:25: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                makedir(write_filename);
+                        ^~~~~~~~~~~~~~
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/unzip.c:1222:24: warning: incompatible pointer types assigning to 'const unsigned long *' from 'const z_crc_t *' (aka 'const unsigned int *') [-Wincompatible-pointer-types]
+        s->pcrc_32_tab = get_crc_table();
+                       ^ ~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/unzip.c:1294:46: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((pfile_in_zip_read_info->read_buffer == NULL))
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/unzip.c:1294:46: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((pfile_in_zip_read_info->read_buffer == NULL))
+        ~                                    ^      ~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/unzip.c:1294:46: note: use '=' to turn this equality comparison into an assignment
+    if ((pfile_in_zip_read_info->read_buffer == NULL))
+                                             ^~
+                                             =
+2 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:768:15: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((level==2))
+         ~~~~~^~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:768:15: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((level==2))
+        ~     ^  ~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:768:15: note: use '=' to turn this equality comparison into an assignment
+    if ((level==2))
+              ^~
+              =
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:770:15: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+    if ((level==1))
+         ~~~~~^~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:770:15: note: remove extraneous parentheses around the comparison to silence this warning
+    if ((level==1))
+        ~     ^  ~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:770:15: note: use '=' to turn this equality comparison into an assignment
+    if ((level==1))
+              ^~
+              =
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/libtifiles2-1.1.5/src/minizip/zip.c:891:28: warning: incompatible pointer types assigning to 'const unsigned long *' from 'const z_crc_t *' (aka 'const unsigned int *') [-Wincompatible-pointer-types]
+        zi->ci.pcrc_32_tab = get_crc_table();
+                           ^ ~~~~~~~~~~~~~~~
+3 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:299:13: warning: implicit declaration of function 'romcalls_is_addr' is invalid in C99 [-Wimplicit-function-declaration]
+        int rcid = romcalls_is_addr(addr);
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:304:73: warning: implicit declaration of function 'romcalls_get_name' is invalid in C99 [-Wimplicit-function-declaration]
+                snprintf(buf, sizeof(buf), "$%06lX -> tios::%s", (unsigned long)addr, romcalls_get_name(rcid)); 
+                                                                                      ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:304:73: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                snprintf(buf, sizeof(buf), "$%06lX -> tios::%s", (unsigned long)addr, romcalls_get_name(rcid)); 
+                                                            ~~                        ^~~~~~~~~~~~~~~~~~~~~~~
+                                                            %d
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1749:49: warning: implicit declaration of function 'romcalls_get_name' is invalid in C99 [-Wimplicit-function-declaration]
+                        sprintf (buffer, "FLINE $%04x.l [%s]", pm/4, romcalls_get_name(pm / 4));
+                                                                     ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1749:43: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                        sprintf (buffer, "FLINE $%04x.l [%s]", pm/4, romcalls_get_name(pm / 4));
+                                                 ~~~~          ^~~~
+                                                 %04lx
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1749:49: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                        sprintf (buffer, "FLINE $%04x.l [%s]", pm/4, romcalls_get_name(pm / 4));
+                                                         ~~          ^~~~~~~~~~~~~~~~~~~~~~~~~
+                                                         %d
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1757:5: warning: implicit declaration of function 'heap_search_for_address' is invalid in C99 [-Wimplicit-function-declaration]
+                                heap_search_for_address(pc + 2, &handle);
+                                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1758:21: warning: implicit declaration of function 'heap_get_block_addr' is invalid in C99 [-Wimplicit-function-declaration]
+                                if (handle > 0) heap_get_block_addr(handle, &addr); else addr = 0;
+                                                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1768:5: warning: implicit declaration of function 'heap_search_for_address' is invalid in C99 [-Wimplicit-function-declaration]
+                                heap_search_for_address(pc + 2, &handle);
+                                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1769:21: warning: implicit declaration of function 'heap_get_block_addr' is invalid in C99 [-Wimplicit-function-declaration]
+                                if (handle > 0) heap_get_block_addr(handle, &addr); else addr = 0;
+                                                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1782:43: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                        sprintf (buffer, "FLINE $%03x.w [%s]", opcode & 0x7ff, romcalls_get_name(opcode & 0x7ff));
+                                                 ~~~~          ^~~~~~~~~~~~~~
+                                                 %03lx
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1782:59: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                        sprintf (buffer, "FLINE $%03x.w [%s]", opcode & 0x7ff, romcalls_get_name(opcode & 0x7ff));
+                                                         ~~                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                         %d
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1787:56: warning: implicit declaration of function 'ercodes_get_name' is invalid in C99 [-Wimplicit-function-declaration]
+                sprintf (buffer, "ER_throw %d [%s]", opcode & 0xfff, ercodes_get_name(opcode & 0xfff));
+                                                                     ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1787:40: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                sprintf (buffer, "ER_throw %d [%s]", opcode & 0xfff, ercodes_get_name(opcode & 0xfff));
+                                           ~~        ^~~~~~~~~~~~~~
+                                           %lu
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1787:56: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                sprintf (buffer, "ER_throw %d [%s]", opcode & 0xfff, ercodes_get_name(opcode & 0xfff));
+                                               ~~                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                               %d
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/uae/newcpu.c:1789:47: warning: format specifies type 'unsigned int' but the argument has type 'uae_u32' (aka 'unsigned long') [-Wformat]
+                sprintf (output, "%06lx: DC.W $%04X", addr, orig_opcode);
+                                               ~~~~         ^~~~~~~~~~~
+                                               %04lX
+16 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tiemu-3.03/src/core/ti_hw/dbus.c:464:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tilem-2.0/gui/link.c:490:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tilem-2.0/gui/emucore.c:155:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tilem-2.0/gui/emulator.c:77:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tilem-2.0/gui/emulator.c:755:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/tilem-2.0/gui/emulator.c:814:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+3 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wrappercommon.c:100:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapper.c:150:2: warning: implicit declaration of function 'sync_clock_tilem' is invalid in C99 [-Wimplicit-function-declaration]
+        sync_clock_tilem(emu);
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapper.c:357:3: warning: implicit declaration of function 'tilem_keybufferPush' is invalid in C99 [-Wimplicit-function-declaration]
+                tilem_keybufferPush(key_codes[i]);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapper.c:402:9: warning: implicit declaration of function 'tilem_link_send_file' is invalid in C99 [-Wimplicit-function-declaration]
+        return tilem_link_send_file(emu, filename, -1, TRUE, TRUE) != 0 ? -10 : 0;
+               ^
+3 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:75:34: warning: implicitly declaring library function 'malloc' with type 'void *(unsigned int)' [-Wimplicit-function-declaration]
+                lcd_buffer_tmp_x1 = (uint32_t*)malloc(LCDMEM_W * LCDMEM_H * sizeof(uint32_t));
+                                               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:75:34: note: include the header <stdlib.h> or explicitly provide a declaration for 'malloc'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:81:2: warning: implicitly declaring library function 'free' with type 'void (void *)' [-Wimplicit-function-declaration]
+        free(lcd_buffer_tmp_x1);
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:81:2: note: include the header <stdlib.h> or explicitly provide a declaration for 'free'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:84:2: warning: implicit declaration of function 'ti68k_exit' is invalid in C99 [-Wimplicit-function-declaration]
+        ti68k_exit();
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:97:2: warning: implicit declaration of function 'ti68k_config_load_default' is invalid in C99 [-Wimplicit-function-declaration]
+        ti68k_config_load_default();
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:102:9: warning: implicit declaration of function 'ti68k_load_image' is invalid in C99 [-Wimplicit-function-declaration]
+        return ti68k_load_image(image_path);
+               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:107:9: warning: implicit declaration of function 'ti68k_init' is invalid in C99 [-Wimplicit-function-declaration]
+        return ti68k_init();
+               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:112:13: warning: implicit declaration of function 'ti68k_reset' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = ti68k_reset();
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:129:10: warning: implicit declaration of function 'ti68k_state_save' is invalid in C99 [-Wimplicit-function-declaration]
+                return ti68k_state_save(state_file);
+                       ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:139:9: warning: implicit declaration of function 'ti68k_state_load' is invalid in C99 [-Wimplicit-function-declaration]
+        return ti68k_state_load(state_file);
+               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:144:9: warning: implicit declaration of function 'ti68k_linkport_send_file' is invalid in C99 [-Wimplicit-function-declaration]
+        return ti68k_linkport_send_file(file_name);
+               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:149:2: warning: implicit declaration of function 'ti68k_kbd_set_key' is invalid in C99 [-Wimplicit-function-declaration]
+        ti68k_kbd_set_key(key_code, is_pressed);
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:159:3: warning: implicit declaration of function 'KeyBufferPush' is invalid in C99 [-Wimplicit-function-declaration]
+                KeyBufferPush(key_codes[i]);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:165:2: warning: implicit declaration of function 'sync_clock' is invalid in C99 [-Wimplicit-function-declaration]
+        sync_clock();
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:170:2: warning: implicit declaration of function 'hw_m68k_irq' is invalid in C99 [-Wimplicit-function-declaration]
+        hw_m68k_irq(6);
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:175:19: warning: implicit declaration of function 'engine_num_cycles_per_loop' is invalid in C99 [-Wimplicit-function-declaration]
+        int cpu_cycles = engine_num_cycles_per_loop() * graph89_emulator_params.speed_coefficient;
+                         ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:176:2: warning: implicit declaration of function 'hw_m68k_run' is invalid in C99 [-Wimplicit-function-declaration]
+        hw_m68k_run(cpu_cycles / 4);
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:213:10: warning: implicit declaration of function 'romcalls_get_symbol_address' is invalid in C99 [-Wimplicit-function-declaration]
+                romcalls_get_symbol_address(0x2A1, &addr);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:246:21: warning: implicitly declaring library function 'strtol' with type 'long (const char *, char **, int)' [-Wimplicit-function-declaration]
+                int vnum = strtol(vernum, (char **)NULL, 16);
+                           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:246:21: note: include the header <stdlib.h> or explicitly provide a declaration for 'strtol'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:273:10: warning: implicit declaration of function 'ti68k_convert_rom_to_image' is invalid in C99 [-Wimplicit-function-declaration]
+                code = ti68k_convert_rom_to_image(source, destination, &dummy);
+                       ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:277:10: warning: implicit declaration of function 'ti68k_convert_tib_to_image' is invalid in C99 [-Wimplicit-function-declaration]
+                code = ti68k_convert_tib_to_image(source, destination, -1, &dummy);
+                       ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tiemuwrapper.c:448:26: warning: implicit declaration of function 'lcd_hook_hw2' is invalid in C99 [-Wimplicit-function-declaration]
+        if(tihw.hw_type >= HW2) lcd_hook_hw2(TRUE);
+                                ^
+21 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wrappercommonjni.c:42:11: warning: initializing 'uint8_t *' (aka 'unsigned char *') with an expression of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        uint8_t *flags = (*env)->GetByteArrayElements(env, jFlags, 0);
+                 ^       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wrappercommonjni.c:44:48: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env, jFlags, flags, 0);
+                                                      ^~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wrappercommonjni.c:50:12: warning: initializing 'uint32_t *' (aka 'unsigned int *') with an expression of type 'jint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        uint32_t *lcd_out = (*env)->GetIntArrayElements(env, jScreenData, 0);
+                  ^         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wrappercommonjni.c:53:52: warning: passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'jint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseIntArrayElements(env, jScreenData, lcd_out, 0);
+                                                          ^~~~~~~
+4 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:29:13: warning: implicit declaration of function 'tilem_load_image' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = tilem_load_image(filename);
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:38:13: warning: implicit declaration of function 'tilem_reset' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = tilem_reset();
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:45:2: warning: implicit declaration of function 'tilem_turn_screen_ON' is invalid in C99 [-Wimplicit-function-declaration]
+        tilem_turn_screen_ON();
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:51:2: warning: implicit declaration of function 'tilem_run_engine' is invalid in C99 [-Wimplicit-function-declaration]
+        tilem_run_engine();
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:58:13: warning: implicit declaration of function 'tilem_load_state' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = tilem_load_state(filename);
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:72:13: warning: implicit declaration of function 'tilem_save_state' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = tilem_save_state(romfile, statefile);
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:85:13: warning: implicit declaration of function 'tilem_send_file' is invalid in C99 [-Wimplicit-function-declaration]
+        int code = tilem_send_file(filename);
+                   ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/tilemwrapperjni.c:95:2: warning: implicit declaration of function 'tilem_sync_clock' is invalid in C99 [-Wimplicit-function-declaration]
+        tilem_sync_clock();
+        ^
+8 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:42:9: warning: implicitly declaring library function 'strncasecmp' with type 'int (const char *, const char *, unsigned int)' [-Wimplicit-function-declaration]
+        return _strnicmp(str1, (char *) str2, strlen(str1));
+               ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:31:19: note: expanded from macro '_strnicmp'
+#define _strnicmp strncasecmp
+                  ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:42:9: note: include the header <strings.h> or explicitly provide a declaration for 'strncasecmp'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:31:19: note: expanded from macro '_strnicmp'
+#define _strnicmp strncasecmp
+                  ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:42:40: warning: implicitly declaring library function 'strlen' with type 'unsigned int (const char *)' [-Wimplicit-function-declaration]
+        return _strnicmp(str1, (char *) str2, strlen(str1));
+                                              ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:42:40: note: include the header <string.h> or explicitly provide a declaration for 'strlen'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:47:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+        memset(tifile->vars, 0, sizeof(tifile->vars));
+        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:47:2: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:167:21: warning: implicitly declaring library function 'strrchr' with type 'char *(const char *, int)' [-Wimplicit-function-declaration]
+        const char *pext = _tcsrchr(filePath, _T('.'));
+                           ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:30:18: note: expanded from macro '_tcsrchr'
+#define _tcsrchr strrchr
+                 ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:167:21: note: include the header <string.h> or explicitly provide a declaration for 'strrchr'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:30:18: note: expanded from macro '_tcsrchr'
+#define _tcsrchr strrchr
+                 ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:169:3: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+                _tcscpy_s(extension, pext);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:29:19: note: expanded from macro '_tcscpy_s'
+#define _tcscpy_s strcpy
+                  ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:169:3: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:29:19: note: expanded from macro '_tcscpy_s'
+#define _tcscpy_s strcpy
+                  ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:177:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+        if (!_tcsicmp(extension, _T(".lab"))) {
+             ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:28:18: note: expanded from macro '_tcsicmp'
+#define _tcsicmp strcasecmp
+                 ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:177:7: note: include the header <strings.h> or explicitly provide a declaration for 'strcasecmp'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbit.h:28:18: note: expanded from macro '_tcsicmp'
+#define _tcsicmp strcasecmp
+                 ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:561:10: warning: implicitly declaring library function 'isdigit' with type 'int (int)' [-Wimplicit-function-declaration]
+                                        if (isdigit(rom[i]))
+                                            ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:561:10: note: include the header <ctype.h> or explicitly provide a declaration for 'isdigit'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:740:3: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                memcpy(str, str + 1, 579);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:740:3: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitvar.c:742:12: warning: passing 'unsigned char[600]' to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        if(strlen(str) < 11) return 0;
+                  ^~~
+9 warnings generated.
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:113:3: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                memcpy(ah->name, &flash[page][i + 2], 8);
+                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:113:3: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:169:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+                if (!strcmp("port23", calc->hw.hwregnames[i])) {
+                     ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:169:8: note: include the header <string.h> or explicitly provide a declaration for 'strcmp'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:186:8: warning: implicitly declaring library function 'memcmp' with type 'int (const void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                if (!memcmp(&dest[page][0x12], &tifile->flash->data[0][0x12], 8)) {
+                     ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:186:8: note: include the header <string.h> or explicitly provide a declaration for 'memcmp'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:201:7: warning: implicitly declaring library function 'memmove' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+                                                memmove(dest[currentPage - pageDiff], dest[currentPage],
+                                                ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:201:7: note: include the header <string.h> or explicitly provide a declaration for 'memmove'
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:214:8: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+                                                        memset(dest[currentPage], 0xFF, PAGE_SIZE_W);
+                                                        ^
+C:/Users/laven/AndroidStudioProjects/graph89-master/app/src/main/jni/wrapper/wabbitlink.c:214:8: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+5 warnings generated.

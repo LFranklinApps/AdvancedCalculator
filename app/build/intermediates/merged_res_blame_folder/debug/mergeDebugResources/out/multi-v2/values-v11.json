@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.eanema.graph89.app-mergeDebugResources-2:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\laven\\AndroidStudioProjects\\graph89-master\\app\\src\\main\\res\\values-v11\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "115",
+                        "endColumns": "79",
+                        "endOffsets": "190"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "79",
+                        "endOffsets": "130"
+                    }
+                }
+            ]
+        }
+    ]
+}

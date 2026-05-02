@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lf.graph89"
+4    android:versionCode="1200"
+5    android:versionName="1.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- uses-permission android:name="android.permission.VIBRATE" / -->
+12    <application
+12-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:6:5-35:19
+13        android:allowBackup="true"
+13-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:10:9-35
+14        android:debuggable="true"
+15        android:extractNativeLibs="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="Advanced Calculator"
+17-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:8:9-44
+18        android:testOnly="true"
+19        android:theme="@style/Graph89Theme" >
+19-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:9:9-44
+20        <activity
+20-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:11:9-19:20
+21            android:name="com.graph89.emulationcore.EmulatorActivity"
+21-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:12:13-70
+22            android:exported="true" >
+22-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:13:13-36
+23            <intent-filter>
+23-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:15:17-69
+24-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:17:17-77
+26-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:20:9-22:43
+30            android:name="com.graph89.emulationcore.RomManagerActivity"
+30-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:21:13-72
+31            android:label="ROM Manager" />
+31-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:22:13-40
+32        <activity
+32-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:23:9-25:39
+33            android:name="com.graph89.controls.FilePickerActivity"
+33-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:24:13-67
+34            android:label="Add ROM" />
+34-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:25:13-36
+35        <activity
+35-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:26:9-28:49
+36            android:name="com.graph89.emulationcore.InstanceConfigurationPage"
+36-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:27:13-79
+37            android:label="ROM Configuration" />
+37-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:28:13-46
+38        <activity
+38-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:29:9-31:40
+39            android:name="com.graph89.emulationcore.GlobalConfigurationPage"
+39-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:30:13-77
+40            android:label="Settings" />
+40-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:31:13-37
+41        <activity
+41-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:32:9-34:46
+42            android:name="com.graph89.emulationcore.BackupManager"
+42-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:33:13-67
+43            android:label="Backup Manager" />
+43-->C:\Users\laven\AndroidStudioProjects\graph89-master\app\src\main\AndroidManifest.xml:34:13-43
+44    </application>
+45
+46</manifest>
